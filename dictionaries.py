@@ -81,8 +81,3 @@ for continent in continents:
     for country, capital in continents[continent].items():
         print(country + ", whose capital is " + capital)
 
-
-
-
-
-
