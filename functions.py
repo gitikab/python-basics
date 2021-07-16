@@ -1,9 +1,9 @@
 # Defining a function
-def greet_user():
+def greet():
     print("Hello !!")
 
 
-greet_user()
+greet()
 
 
 # Passing information to a function
