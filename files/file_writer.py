@@ -8,6 +8,8 @@ lines = ["I love Python\n", "I love Java\n"]
 with open("textfiles/aboutme.txt", 'w') as file:
     file.writelines(lines)
 
-
+# Append to a file
+with open("aboutme.txt", 'a') as file:
+    file.write("I love to travel too\n")
 
 
