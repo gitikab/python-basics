@@ -10,3 +10,5 @@ for fruit in fruits:
 
 # No error if a tuple variable is reassigned
 fruits = ("Pear", "Peach")
+
+# All other tuple operations are same as list like indexing, slicing, searching, membership
