@@ -30,7 +30,14 @@ print(flowers[-1])
 
 # Accessing last element can also return IndexError if list is empty
 empty_list = []
-empty_list[-1]
+#empty_list[-1]
+
+# Search in a list
+index_of_rose = flowers.index("rose")
+print(index_of_rose)
+
+# Membership test
+print("rose" in flowers)
 
 
 

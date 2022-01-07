@@ -30,5 +30,11 @@ cities_travelled_reference.append("Mumbai")
 print(cities_travelled_reference)
 print(cities_travelled)
 
+# Shrinking a list
+some_cities = cities_travelled[:10]
+print(some_cities)
+some_cities[3:7] = []
+print(some_cities)
+
 
 
